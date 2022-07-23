@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import Counter from "./components/Counter";
-import PostItem from "./components/PostItem";
+// import Counter from "./components/Counter";
+// import PostItem from "./components/PostItem";
 import PostList from "./components/PostList";
+import MyButton from "./components/UI/Button/MyButton";
 import './styles/App.css'
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
 			<form>
 				<input type='text' placeholder='Название' />
 				<input type='text' placeholder='Описание' />
-				<button>Создать пост</button>
+				<MyButton>Создать пост</MyButton>
 			</form>
 			<PostList posts={posts} title='Список постов 1' />
 		</div>
