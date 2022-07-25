@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-size: 18px;
 }
 
 #root {
@@ -16,7 +17,7 @@
 .post {
 	display: flex;
 	padding: 15px;
-	border: 1px solid black;
+	border: 2px solid rgb(216, 20, 255);
 	margin-top: 15px;
 	justify-content: space-between;
 }
