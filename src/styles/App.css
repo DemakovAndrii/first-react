@@ -20,4 +20,5 @@
 	border: 2px solid rgb(216, 20, 255);
 	margin-top: 15px;
 	justify-content: space-between;
+	align-items: center;
 }
