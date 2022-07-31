@@ -45,3 +45,19 @@
 	transform: translateX(800px);
 	transition: all 400ms ease-in;
 }
+
+.pages__wraper {
+	margin-top: 30px;
+	display: flex;
+}
+
+.page {
+	padding: 10px;
+	border: 1px solid #000;
+	cursor: pointer;
+}
+
+.page__current {
+	border: 2px solid rgb(216, 20, 255);
+	font-weight: 700;
+}
